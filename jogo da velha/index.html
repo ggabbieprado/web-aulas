@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jogo da velha para dois jogadores.">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header class="game__header">
+      <p class="eyebrow">Dois jogadores</p>
+      <h1>Jogo da velha</h1>
+      <p id="status" class="status" role="status" aria-live="polite">
+        Vez do jogador X
+      </p>
+    </header>
+
+    <section class="scoreboard" aria-label="Placar">
+      <div class="score score--x">
+        <span>Jogador X</span>
+        <strong id="score-x">0</strong>
+      </div>
+      <div class="score score--draw">
+        <span>Empates</span>
+        <strong id="score-draw">0</strong>
+      </div>
+      <div class="score score--o">
+        <span>Jogador O</span>
+        <strong id="score-o">0</strong>
+      </div>
+    </section>
+
+    <section class="board" aria-label="Tabuleiro do jogo da velha">
+      <button class="cell" type="button" aria-label="Casa 1"></button>
+      <button class="cell" type="button" aria-label="Casa 2"></button>
+      <button class="cell" type="button" aria-label="Casa 3"></button>
+      <button class="cell" type="button" aria-label="Casa 4"></button>
+      <button class="cell" type="button" aria-label="Casa 5"></button>
+      <button class="cell" type="button" aria-label="Casa 6"></button>
+      <button class="cell" type="button" aria-label="Casa 7"></button>
+      <button class="cell" type="button" aria-label="Casa 8"></button>
+      <button class="cell" type="button" aria-label="Casa 9"></button>
+    </section>
+
+    <button id="reset-game" class="reset-button" type="button">
+      Reiniciar partida
+    </button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
