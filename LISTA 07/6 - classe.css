@@ -1,0 +1,10 @@
+#titulo {
+  text-align: center;
+}
+
+.destaque {
+  background-color: #fff3b0;
+  color: #b00020;
+  font-weight: bold;
+  padding: 4px 8px;
+}

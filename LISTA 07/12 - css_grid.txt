@@ -1,0 +1,4 @@
+repeat(3, 1fr): 
+cria 3 colunas de largura igual. 
+1fr significa 1 fração do espaço disponível — como as 3 colunas usam a mesma fração, o espaço é dividido em partes iguais (equivale a 1fr 1fr 1fr). 
+Se houvesse repeat(3, 2fr) com uma coluna 1fr, as proporções seriam 2:2:2:1.

@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* distribui no eixo principal */
+  align-items: center;            /* alinha no eixo transversal */
+  gap: 16px;                      /* espaço entre as caixas */
+  padding: 16px;
+}
+
+.caixa {
+  flex: 1;              /* todas crescem igualmente */
+  padding: 24px;
+  background: #e7f1ff;
+  border: 1px solid #0d6efd;
+  border-radius: 8px;
+  text-align: center;
+}

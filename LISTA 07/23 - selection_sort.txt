@@ -1,0 +1,17 @@
+
+i: Índice da posição sendo preenchida (laço externo). 
+A cada iteração, a posição i recebe o próximo menor elemento. 
+Vai de 0 até length - 2 (o último elemento já fica ordenado por consequência).
+
+j: Índice do laço interno, que varre a parte ainda não ordenada (i+1 … fim) procurando o menor valor.
+
+indiceMenor: Guarda o índice (não o valor!) do menor elemento encontrado até agora. Começa em i e é atualizado sempre que numeros[j] for menor.
+
+aux (variável de troca): Armazena temporariamente um dos valores durante o swap. 
+É necessária porque, ao fazer numeros[i] = numeros[indiceMenor], o valor antigo de numeros[i] seria perdido — o aux o preserva para a segunda atribuição.
+
+Traço da execução:
+[7, 3, 9, 2, 5]  i=0 → menor é 2 (índice 3) → troca → [2, 3, 9, 7, 5]
+i=1 → menor é 3 (índice 1) → sem troca            → [2, 3, 9, 7, 5]
+i=2 → menor é 5 (índice 4) → troca                → [2, 3, 5, 7, 9]
+i=3 → menor é 7 (índice 3) → sem troca            → [2, 3, 5, 7, 9]

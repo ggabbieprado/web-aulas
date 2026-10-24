@@ -1,0 +1,10 @@
+Diferença entre #titulo e .destaque:
+
+#titulo: 
+é seletor de ID — casa com o elemento que tem id="titulo". O id é único na página (só um elemento pode ter esse valor).
+
+.destaque: 
+é seletor de classe — casa com todos os elementos que têm class="destaque". A classe é reutilizável em vários elementos.
+
+Em especificidade, o ID (100) vence a classe (10) e a tag (1). 
+Por isso use classe para estilos reutilizáveis e ID para âncoras/JS pontuais.

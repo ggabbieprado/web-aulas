@@ -1,0 +1,5 @@
+Função do head: 
+contém metadados — informações sobre a página que não aparecem no corpo do documento: codificação de caracteres (charset), configuração de viewport (responsividade), <title> (texto da aba), links para CSS, scripts, favicon, SEO.
+
+Função do body: 
+contém todo o conteúdo visível da página — textos, imagens, links, formulários, etc. É o que o usuário vê e interage.

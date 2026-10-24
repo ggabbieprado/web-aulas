@@ -1,0 +1,17 @@
+Finalidade: 
+framework CSS (com componentes JS opcionais) que oferece um sistema de grid responsivo, componentes prontos (botões, cards, modais, navbar) e utilitários (espaçamento, cores, tipografia). 
+Objetivo: 
+acelerar o desenvolvimento, garantir consistência visual e responsividade sem escrever todo o CSS do zero.
+
+container:	
+Centraliza o conteúdo e aplica largura máxima responsiva com padding lateral (.container-fluid ocupa 100%).
+row:	
+Cria uma linha do grid; é um flex container que agrupa as colunas. Deve ficar dentro de um container.
+col:	
+Cria uma coluna flexível. Variações: col-6, col-md-4, etc. (nº de colunas de 1 a 12).
+btn:	
+Classe base de botão (padding, borda, tipografia, estados).
+btn-primary:	
+Variante de cor do botão (azul “primário” do tema).
+card:	
+Componente de cartão: container com borda, padding e estrutura para imagem, título, texto e rodapé.

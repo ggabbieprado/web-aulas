@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lâmpada</title>
+</head>
+<body>
+  <h1>Lâmpada</h1>
+
+  <img id="lampada" src="lampada-apagada.png" alt="Lâmpada" width="200">
+
+  <div>
+    <button id="acender">ACENDER</button>
+    <button id="apagar">APAGAR</button>
+  </div>
+
+  <script>
+    const lampada = document.getElementById("lampada");
+
+    const imgApagada = "lampada-apagada.png";
+    const imgAcesa   = "lampada-acesa.png";
+
+    document.getElementById("acender").addEventListener("click", () => {
+      lampada.src = imgAcesa;
+      lampada.alt = "Lâmpada acesa";
+    });
+
+    document.getElementById("apagar").addEventListener("click", () => {
+      lampada.src = imgApagada;
+      lampada.alt = "Lâmpada apagada";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+:hover:
+aplica o estilo enquanto o cursor está sobre o elemento.
+
+cursor: 
+pointer mostra a “mãozinha”, indicando que é clicável.
+
+transition: 
+faz a mudança ser suave em vez de instantânea (desafio cumprido).

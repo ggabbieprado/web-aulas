@@ -1,0 +1,12 @@
+display: flex → 
+transforma a div em um flex container; os filhos passam a ser flex items posicionados pelo modelo Flexbox.
+
+justify-content: center → 
+alinha os itens no eixo principal (por padrão horizontal, pois flex-direction é row) → centraliza na horizontal.
+
+align-items: center → 
+alinha os itens no eixo transversal (vertical, no caso padrão) → centraliza na vertical.
+
+min-height: 100vh → 
+garante que o container tenha no mínimo a altura da viewport (vh = 1% da altura da janela). 
+Sem isso, o container teria só a altura do conteúdo e não haveria “espaço vertical” para centralizar.

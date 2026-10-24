@@ -1,0 +1,17 @@
+1. USUÁRIO 
+interage com a página (clica no botão ACENDER).
+
+2. CLIQUE 
+é a ação física; o navegador capta o input.
+
+3. EVENTO 
+é o objeto gerado (MouseEvent do tipo click) que percorre o DOM (fase de captura → target → borbulhamento).
+
+4. FUNÇÃO 
+é o listener registrado com addEventListener("click", fn). 
+Ele é chamado pelo navegador no momento em que o evento chega ao elemento. 
+É assíncrono — fica “esperando” até que o evento aconteça.
+
+5. ALTERAÇÃO NO DOM: 
+dentro da função, manipulamos a árvore do documento (lampada.src = ...). 
+O navegador então recalcula o layout e repinta a tela, e o usuário vê a imagem trocada.

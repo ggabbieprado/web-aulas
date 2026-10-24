@@ -1,0 +1,14 @@
+.card {
+  width: 280px;
+  padding: 16px;
+  margin: 24px auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.card-img { width: 100%; border-radius: 8px; }
+.card-nome { font-size: 1.2rem; }
+.card-desc { font-size: 0.9rem; color: #666; }
+.card-preco { font-weight: bold; color: #1a7f37; }

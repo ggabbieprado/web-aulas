@@ -1,0 +1,16 @@
+notas[0]	
+resultado = 7
+explicação: Arrays em JS são 0-indexados: a primeira posição é 0.
+
+notas[2]
+resultado = 9
+explicação: Terceiro elemento (índice 2).		
+
+notas.length	
+resultado = 5
+explicação: Quantidade de elementos. O último índice válido é length - 1 (4).
+
+Alterar posição 1
+resultado = notas[1] = 10;
+explicação: Agora o array é [7, 10, 9, 8, 6].
+

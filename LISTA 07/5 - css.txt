@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="style.css">
+
+Funcionamento: 
+a tag <link> (no <head>) informa ao navegador que existe um recurso externo. rel="stylesheet" diz que esse recurso é uma folha de estilo; href é o caminho do arquivo. O navegador faz uma requisição HTTP para style.css, baixa, interpreta as regras e aplica aos elementos do DOM que casarem com os seletores. Como o arquivo é separado, ele é guardado em cache e reaproveitado nas demais páginas.
+
+Por que separar HTML e CSS?
+
+Separação de responsabilidades: 
+HTML = estrutura/conteúdo; CSS = apresentação.
+
+Reutilização: 
+um único style.css serve para várias páginas.
+
+Manutenção: 
+mudar a aparência de todo o site em um só arquivo.
+
+Performance: 
+cache do navegador.
+
+Trabalho em equipe / acessibilidade: 
+conteúdo continua legível mesmo sem estilos.
