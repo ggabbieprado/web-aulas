@@ -1,0 +1,14 @@
+Papel das variáveis:
+
+i: 
+posição que está sendo “preenchida” com o próximo menor valor (laço externo).
+
+j: 
+percorre a parte ainda não ordenada (i+1 até o fim) procurando o menor.
+
+indiceMenor: 
+guarda o índice do menor elemento encontrado até o momento (não o valor). 
+Começa em i e é atualizado quando numeros[j] é menor.
+
+aux (variável de troca): 
+preserva temporariamente um dos valores durante o swap, pois a primeira atribuição sobrescreveria o valor original.
