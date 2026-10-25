@@ -1,0 +1,4 @@
+Significado de 1fr: 
+é uma fração do espaço livre do container. 
+Com repeat(3, 1fr), o espaço é dividido em 3 partes iguais — equivale a 1fr 1fr 1fr. 
+Se fosse 2fr 1fr 1fr, a primeira coluna teria o dobro da largura das demais.

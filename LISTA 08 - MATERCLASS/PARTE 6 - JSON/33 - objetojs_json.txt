@@ -1,0 +1,9 @@
+Objeto JavaScript: 
+estrutura em memória, com propriedades/métodos, tipos nativos (number, boolean, function), 
+chaves sem aspas obrigatórias e referências. Pode conter funções.
+
+JSON (JavaScript Object Notation): 
+formato de texto para troca/armazenamento de dados. 
+Chaves sempre entre aspas duplas, valores apenas string, number, boolean, null, arrays e objetos. 
+Não aceita funções, undefined nem comentários. 
+É independente de linguagem.
