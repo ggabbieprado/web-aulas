@@ -1,9 +1,0 @@
-Diferença:
-
-produtos[2] = "Teclado" 
-atribui na posição 2. Se o índice for maior que length, cria posições vazias (holes) e o length salta para índice + 1; 
-se já existir valor, sobrescreve.
-
-produtos.push("Teclado") 
-adiciona ao final, sem buracos, e atualiza length automaticamente. 
-É a forma segura e idiomática de acrescentar.

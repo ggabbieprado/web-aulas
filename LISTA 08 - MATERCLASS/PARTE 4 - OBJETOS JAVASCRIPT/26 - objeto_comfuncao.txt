@@ -1,6 +1,0 @@
-this em métodos: 
-
-quando uma função é chamada como método de um objeto (produto.calcularTotal()), this referencia o próprio objeto (produto). 
-Assim, this.preco e this.quantidade acessam as propriedades desse objeto. 
-Em funções soltas ou arrow functions no escopo global, this tem outro valor (ou é undefined em modo estrito), 
-por isso métodos tradicionais são comuns em objetos.
