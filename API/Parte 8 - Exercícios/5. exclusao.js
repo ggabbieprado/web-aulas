@@ -1,0 +1,1 @@
+publicacoes = publicacoes.filter((p) => p.id !== id);

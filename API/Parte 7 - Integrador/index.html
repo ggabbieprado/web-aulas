@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro com API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Publicações</h1>
+
+        <!-- Exercício 4 (POST): cadastro -->
+        <form id="formPublicacao">
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" required>
+
+            <label for="conteudo">Conteúdo</label>
+            <textarea id="conteudo" required></textarea>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <p id="mensagem" role="status" aria-live="polite"></p>
+
+        <!-- Exercícios 1 e 2 (GET /posts/{id}) -->
+        <section class="bloco">
+            <h2>Buscar por ID</h2>
+            <div class="linha">
+                <input type="number" id="idBusca" min="1" placeholder="Ex.: 1">
+                <button type="button" id="btnBuscar">Buscar</button>
+            </div>
+            <article id="detalhePublicacao"></article>
+        </section>
+
+        <!-- Exercício 4 (PATCH) -->
+        <section class="bloco">
+            <h2>Alterar título</h2>
+            <form id="formAlteracao">
+                <div class="linha">
+                    <input type="number" id="idAlterar" min="1" placeholder="ID">
+                    <input type="text" id="novoTitulo" placeholder="Novo título">
+                    <button type="submit">Alterar</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Exercícios 3 e 5 (GET + DELETE) -->
+        <section class="bloco">
+            <h2>Lista</h2>
+            <button id="btnCarregar" type="button">Carregar publicações</button>
+            <ul id="listaPublicacoes"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

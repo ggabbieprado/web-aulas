@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1, h2 { color: #111827; }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bloco {
+    margin-top: 28px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.linha {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font: inherit;
+}
+
+button {
+    padding: 10px 16px;
+    margin-top: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover:not(:disabled) { background-color: #1d4ed8; }
+button:disabled { background-color: #9ca3af; cursor: not-allowed; }
+
+#mensagem { min-height: 1.2em; margin: 16px 0; font-weight: bold; }
+#mensagem.erro { color: #b91c1c; }
+#mensagem.sucesso { color: #15803d; }
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+li button {
+    margin: 0;
+    padding: 6px 10px;
+    background-color: #dc2626;
+}
+li button:hover:not(:disabled) { background-color: #b91c1c; }
+
+#detalhePublicacao h2 { font-size: 1.1rem; margin: 8px 0; }
+#detalhePublicacao p { color: #374151; }

@@ -1,0 +1,1 @@
+const resposta = await fetch(`${URL_API}/${id}`);
